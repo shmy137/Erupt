@@ -1,0 +1,58 @@
+export const showcase = [
+  {
+    number: '01',
+    title: 'Brand identity systems',
+    text: 'Logo, type, colour, guidelines and the launch kit that holds it together.',
+    items: ['Logo suite', 'Brand guidelines', 'Stationery', 'Launch assets'],
+    tone: 'orange',
+  },
+  {
+    number: '02',
+    title: 'Packaging & product design',
+    text: 'Shelf-ready packaging and product visuals built for the first impression.',
+    items: ['Packaging', 'Labels', 'Product renders', 'Catalogue'],
+    tone: 'dark',
+  },
+  {
+    number: '03',
+    title: 'Social media campaigns',
+    text: 'Posters, reels and calendars that keep a brand in the feed without sounding like everyone else.',
+    items: ['Content calendar', 'Posters', 'Reels', 'Community'],
+    tone: 'gray',
+  },
+  {
+    number: '04',
+    title: 'Video production',
+    text: 'Brand films, product videos, testimonials, podcasts and the edits that follow.',
+    items: ['Brand film', 'Product video', 'Testimonials', 'Podcast'],
+    tone: 'dark',
+  },
+  {
+    number: '05',
+    title: 'Performance marketing',
+    text: 'Meta and Google campaigns built around leads, sales and the numbers behind them.',
+    items: ['Meta Ads', 'Google Ads', 'Lead gen', 'Reporting'],
+    tone: 'orange',
+  },
+  {
+    number: '06',
+    title: 'Website & SEO',
+    text: 'Business sites, stores and landing pages that load fast and explain the offer clearly.',
+    items: ['Business site', 'E-commerce', 'Landing page', 'SEO'],
+    tone: 'gray',
+  },
+  {
+    number: '07',
+    title: 'Outdoor, print & hoardings',
+    text: 'Flex, signage, vehicle branding and outdoor media that carry the brand into the street.',
+    items: ['Flex', 'Signage', 'Vehicle branding', 'Hoardings'],
+    tone: 'orange',
+  },
+  {
+    number: '08',
+    title: 'Startup launch',
+    text: 'Registration, licences, brand identity and the digital setup a new business needs.',
+    items: ['Registration', 'Licences', 'Brand kit', 'Digital launch'],
+    tone: 'dark',
+  },
+]
