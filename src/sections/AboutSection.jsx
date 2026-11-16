@@ -1,9 +1,6 @@
-import PageMeta from '../components/PageMeta'
-import PageHero from '../components/PageHero'
 import Section from '../components/Section'
-import Button from '../components/Button'
-import CTASection from '../components/CTASection'
-import { pageMeta, site } from '../data/site'
+import SectionLink from '../components/SectionLink'
+import Icon from '../components/Icon'
 import { values } from '../data/values'
 import { board } from '../data/board'
 
@@ -11,30 +8,13 @@ const mission =
   'To give every brand one team, one plan and the full 360° of creative and digital firepower.'
 const vision = 'To make Kannur a launchpad for brands that compete far beyond it.'
 
-export default function About() {
+export default function AboutSection() {
   return (
     <>
-      <PageMeta {...pageMeta.about} />
-
-      <PageHero
-        eyebrow="About ERUPT"
-        title="One group for every side of your brand."
-        lead="We are a creative and digital marketing team based in Kannur, Kerala, built to plan, make and measure the whole brand."
-      >
-        <div className="hero__actions">
-          <Button to={site.cta.to} variant="primary" icon="arrow">
-            {site.cta.label}
-          </Button>
-          <Button to="/work" variant="ghost" icon="arrowUpRight">
-            See the work
-          </Button>
-        </div>
-      </PageHero>
-
-      <Section>
+      <Section id="about">
         <div className="wrap split">
           <div className="split__left">
-            <p className="eyebrow">The short version</p>
+            <p className="eyebrow">About ERUPT</p>
             <h2 className="h2">We built the agency we kept wishing existed.</h2>
           </div>
           <div className="split__right" data-placeholder="true">
@@ -53,6 +33,9 @@ export default function About() {
               startups, established shops, clinics, restaurants, builders and brands
               ready for their next chapter.
             </p>
+            <SectionLink className="text-link" section="work">
+              See the work <Icon name="arrowUpRight" size={16} />
+            </SectionLink>
           </div>
         </div>
       </Section>
@@ -127,12 +110,6 @@ export default function About() {
           </div>
         </div>
       </Section>
-
-      <CTASection
-        eyebrow="Work with us"
-        title="Bring us the whole brand. Or the piece that is stuck."
-        text="Tell us where the brand is now and where it needs to go. We will tell you what we would do first."
-      />
     </>
   )
 }

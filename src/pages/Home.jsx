@@ -1,21 +1,31 @@
-import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 import PageMeta from '../components/PageMeta'
 import Section from '../components/Section'
 import Button from '../components/Button'
 import Icon from '../components/Icon'
+import SectionLink from '../components/SectionLink'
 import Diagram360 from '../components/Diagram360'
 import HighlightText from '../components/HighlightText'
-import CTASection from '../components/CTASection'
+import ServicesSection from '../sections/ServicesSection'
+import WorkSection from '../sections/WorkSection'
+import ContactSection from '../sections/ContactSection'
+import { consumePendingSection, scrollToSection } from '../lib/sectionScroll'
 import { pageMeta, site } from '../data/site'
 import { services } from '../data/services'
 import { stats } from '../data/stats'
-import { showcase } from '../data/showcase'
 import { process } from '../data/process'
 
 const heroChips = ['Branding', 'Social', 'Video', 'Web', 'Print', 'Ads', 'Startup']
-const workPreview = showcase.slice(0, 4)
 
 export default function Home() {
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      const section = consumePendingSection()
+      if (section) scrollToSection(section)
+    })
+    return () => window.cancelAnimationFrame(frame)
+  }, [])
+
   return (
     <>
       <PageMeta {...pageMeta.home} />
@@ -35,7 +45,7 @@ export default function Home() {
               <Button to={site.cta.to} variant="primary" icon="arrow">
                 {site.cta.label}
               </Button>
-              <Button to="/work" variant="ghost" icon="arrowUpRight">
+              <Button section="work" variant="ghost" icon="arrowUpRight">
                 See the work
               </Button>
             </div>
@@ -89,54 +99,15 @@ export default function Home() {
               performance in one room. One brief, one standard, one team that
               sees the brand from every angle.
             </p>
-            <Link className="text-link" to="/about">
+            <SectionLink className="text-link" section="about">
               How we work <Icon name="arrowUpRight" size={16} />
-            </Link>
+            </SectionLink>
           </div>
         </div>
       </Section>
 
-      <Section tone="surface" id="services-preview">
-        <div className="wrap">
-          <div className="section-head">
-            <div>
-              <p className="eyebrow">What we do</p>
-              <h2 className="h2">Seven service lines. One connected team.</h2>
-            </div>
-            <Link className="text-link" to="/services">
-              All services <Icon name="arrow" size={16} />
-            </Link>
-          </div>
-
-          <div className="service-grid">
-            {services.map((service) => (
-              <Link
-                className="service-card"
-                to={`/services#${service.id}`}
-                key={service.id}
-              >
-                <div className="service-card__top">
-                  <span className="mono">{service.number}</span>
-                  <Icon name={service.icon} size={22} />
-                </div>
-                <h3 className="service-card__title">{service.title}</h3>
-                <p className="service-card__text">{service.short}</p>
-                <span className="service-card__more">
-                  Explore <Icon name="arrowUpRight" size={14} />
-                </span>
-              </Link>
-            ))}
-
-            <div className="service-card service-card--cta">
-              <p className="mono">Not sure where to start?</p>
-              <h3 className="service-card__title">Tell us the goal. We will map the route.</h3>
-              <Button to="/contact" variant="dark" size="sm" icon="arrow">
-                Talk to us
-              </Button>
-            </div>
-          </div>
-        </div>
-      </Section>
+                
+        <ServicesSection />
 
       <Section tone="dark" id="the-360">
         <div className="wrap split split--wide">
@@ -180,41 +151,7 @@ export default function Home() {
         </div>
       </Section>
 
-      <Section id="work-preview">
-        <div className="wrap">
-          <div className="section-head">
-            <div>
-              <p className="eyebrow">Selected capabilities</p>
-              <h2 className="h2">The work is the proof.</h2>
-            </div>
-            <Link className="text-link" to="/work">
-              See the work <Icon name="arrow" size={16} />
-            </Link>
-          </div>
-
-          <div className="work-grid">
-            {workPreview.map((item, index) => (
-              <Link
-                className={`work-tile work-tile--${item.tone} work-tile--span-${index % 2 === 0 ? 'wide' : 'narrow'}`}
-                to="/work"
-                key={item.number}
-              >
-                <div className="work-tile__top">
-                  <span className="mono">{item.number}</span>
-                  <Icon name="arrowUpRight" size={18} />
-                </div>
-                <h3 className="work-tile__title">{item.title}</h3>
-                <p className="work-tile__text">{item.text}</p>
-                <ul className="work-tile__tags">
-                  {item.items.map((tag) => (
-                    <li key={tag}>{tag}</li>
-                  ))}
-                </ul>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </Section>
+      <WorkSection />
 
       <Section tone="surface" id="process">
         <div className="wrap">
@@ -240,7 +177,7 @@ export default function Home() {
         </div>
       </Section>
 
-      <CTASection />
+      <ContactSection />
     </>
   )
 }

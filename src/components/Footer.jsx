@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import Wordmark from './Wordmark'
 import Icon from './Icon'
+import SectionLink from './SectionLink'
 import { site } from '../data/site'
 import { services } from '../data/services'
 
@@ -21,16 +22,25 @@ export default function Footer() {
           <div className="footer__cols">
             <div className="footer__col">
               <p className="footer__label">Explore</p>
-              {site.nav.map((item) => (
-                <Link key={item.to} to={item.to}>
-                  {item.label}
-                </Link>
-              ))}
+              {site.nav.map((item) => {
+                if (item.label === 'Contact') {
+                  return (
+                    <Link key={item.section} to="/contact">
+                      {item.label}
+                    </Link>
+                  )
+                }
+                return (
+                  <SectionLink key={item.section} section={item.section}>
+                    {item.label}
+                  </SectionLink>
+                )
+              })}
             </div>
             <div className="footer__col">
               <p className="footer__label">Services</p>
               {services.map((service) => (
-                <Link key={service.id} to={`/services#${service.id}`}>
+                <Link key={service.id} to={`/services/${service.id}`}>
                   {service.title}
                 </Link>
               ))}

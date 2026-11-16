@@ -43,7 +43,7 @@ export default function Diagram360() {
           return (
             <Link
               className="hub__cell hub__cell--link"
-              to={`/services#${service.id}`}
+              to={`/services/${service.id}`}
               key={service.id}
             >
               <span className="hub__num">{service.number}</span>

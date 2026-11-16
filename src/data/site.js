@@ -14,11 +14,17 @@ export const site = {
   },
   mapUrl:
     'https://www.google.com/maps/search/?api=1&query=MVN+Complex+Mathamangalam+Kannur+Kerala+670306',
+  socials: {
+    behance: 'https://www.behance.net/eruptcreativegroup',
+    linkedin: 'https://www.linkedin.com/company/eruptcreativegroup',
+    instagram: 'https://www.instagram.com/eruptcreativegroup',
+    dribbble: 'https://dribbble.com/eruptcreativegroup',
+  },
   nav: [
-    { label: 'About', to: '/about' },
-    { label: 'Services', to: '/services' },
-    { label: 'Work', to: '/work' },
-    { label: 'Contact', to: '/contact' },
+    { label: 'About', section: 'about' },
+    { label: 'Services', section: 'services' },
+    { label: 'Work', section: 'work' },
+    { label: 'Contact', section: 'contact' },
   ],
   cta: { label: 'Start a project', to: '/contact' },
 }

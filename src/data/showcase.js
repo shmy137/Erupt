@@ -1,58 +1,98 @@
 export const showcase = [
   {
     number: '01',
+    slug: 'brand-identity-systems',
     title: 'Brand identity systems',
     text: 'Logo, type, colour, guidelines and the launch kit that holds it together.',
+    description:
+      'A brand identity system is more than a logo. We build the full visual and verbal kit — the mark, the type, the colour, the rules and the assets — so every touchpoint looks like it belongs to the same brand.',
     items: ['Logo suite', 'Brand guidelines', 'Stationery', 'Launch assets'],
     tone: 'orange',
+    image: 'https://images.unsplash.com/photo-1633533451997-8b6079082e3d?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Brand identity materials, logo and stationery laid out on a desk',
   },
   {
     number: '02',
+    slug: 'packaging-product-design',
     title: 'Packaging & product design',
     text: 'Shelf-ready packaging and product visuals built for the first impression.',
+    description:
+      'Packaging is the one ad every customer holds in their hand. We design labels, boxes and product visuals that read clearly on shelf and in a photo, then prepare the files for production.',
     items: ['Packaging', 'Labels', 'Product renders', 'Catalogue'],
     tone: 'dark',
+    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Product packaging boxes arranged for a brand presentation',
   },
   {
     number: '03',
+    slug: 'social-media-campaigns',
     title: 'Social media campaigns',
     text: 'Posters, reels and calendars that keep a brand in the feed without sounding like everyone else.',
+    description:
+      'We build social systems rather than one-off posts: a content calendar, a repeatable design language and a production rhythm that keeps the brand visible week after week.',
     items: ['Content calendar', 'Posters', 'Reels', 'Community'],
     tone: 'gray',
+    image: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Social media apps and campaign content shown on a smartphone',
   },
   {
     number: '04',
+    slug: 'video-production',
     title: 'Video production',
     text: 'Brand films, product videos, testimonials, podcasts and the edits that follow.',
+    description:
+      'From the first idea to the final cut, we plan, shoot and edit video that has a reason to exist — a product to explain, a story to tell or a person to trust.',
     items: ['Brand film', 'Product video', 'Testimonials', 'Podcast'],
     tone: 'dark',
+    image: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Video camera setup during a film production shoot',
   },
   {
     number: '05',
+    slug: 'performance-marketing',
     title: 'Performance marketing',
     text: 'Meta and Google campaigns built around leads, sales and the numbers behind them.',
+    description:
+      'We run paid campaigns as a system: the offer, the creative, the audience, the landing page and the reporting. Every rupee is tracked against a result you can see.',
     items: ['Meta Ads', 'Google Ads', 'Lead gen', 'Reporting'],
     tone: 'orange',
+    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Marketing analytics dashboard with charts and performance metrics',
   },
   {
     number: '06',
+    slug: 'website-seo',
     title: 'Website & SEO',
     text: 'Business sites, stores and landing pages that load fast and explain the offer clearly.',
+    description:
+      'A website should sell while you sleep. We design and build fast, clear sites and stores, then handle the technical SEO and content structure that helps people find them.',
     items: ['Business site', 'E-commerce', 'Landing page', 'SEO'],
     tone: 'gray',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Laptop on a desk showing a website and analytics in a workspace',
   },
   {
     number: '07',
+    slug: 'outdoor-print-hoardings',
     title: 'Outdoor, print & hoardings',
     text: 'Flex, signage, vehicle branding and outdoor media that carry the brand into the street.',
+    description:
+      'We take the brand off the screen and into the street: signage, vehicle branding, flex, standees and outdoor media, produced and placed with the same care as the digital work.',
     items: ['Flex', 'Signage', 'Vehicle branding', 'Hoardings'],
     tone: 'orange',
+    image: 'https://images.unsplash.com/photo-1523821741446-edb2b68bb7a0?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Large outdoor billboard hoarding displayed on a city street',
   },
   {
     number: '08',
+    slug: 'startup-launch',
     title: 'Startup launch',
     text: 'Registration, licences, brand identity and the digital setup a new business needs.',
+    description:
+      'A new business needs more than a logo. We handle the setup side — registration, licences, brand identity and the first digital presence — so you can open the doors ready to trade.',
     items: ['Registration', 'Licences', 'Brand kit', 'Digital launch'],
     tone: 'dark',
+    image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Startup team planning a new business launch in a modern workspace',
   },
 ]
