@@ -1,12 +1,87 @@
+import { lazy, Suspense, useEffect, useRef, useState } from 'react'
 import Section from '../components/Section'
 import SectionLink from '../components/SectionLink'
+import RevealText from '../components/RevealText'
 import Icon from '../components/Icon'
-import { values } from '../data/values'
-import { board } from '../data/board'
+import { board, ownerCardAssets } from '../data/board'
+import { stats } from '../data/stats'
+
+const Lanyard = lazy(() => import('../components/Lanyard'))
 
 const mission =
   'To give every brand one team, one plan and the full 360° of creative and digital firepower.'
 const vision = 'To make Kannur a launchpad for brands that compete far beyond it.'
+
+function LanyardFallback({ person }) {
+  return (
+    <div
+      className={`board-lanyard__fallback board-lanyard__fallback--${person.tone}`}
+      aria-hidden="true"
+    >
+      {person.initials}
+    </div>
+  )
+}
+
+function OwnerLanyard({ person, index }) {
+  const ref = useRef(null)
+  const [ready, setReady] = useState(false)
+
+  useEffect(() => {
+    const node = ref.current
+    if (!node) return undefined
+
+    let timer
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          observer.disconnect()
+          timer = window.setTimeout(() => setReady(true), index * 120)
+        }
+      },
+      { rootMargin: '240px' },
+    )
+
+    observer.observe(node)
+    return () => {
+      observer.disconnect()
+      window.clearTimeout(timer)
+    }
+  }, [index])
+
+  return (
+    <figure className="board-lanyard" ref={ref}>
+      <div className="board-lanyard__stage">
+        {ready ? (
+          <Suspense fallback={<LanyardFallback person={person} />}>
+            <Lanyard
+              frontImage={person.frontImage}
+              backImage={ownerCardAssets.backImage}
+              strapImage={ownerCardAssets.strapImage}
+              imageFit="cover"
+              cardColor="#ffffff"
+              finish="matte"
+              cornerRadius={0.28}
+              size={0.62}
+              anchor="center"
+              strapLength={0.48}
+              strapWidth={0.5}
+              metal="graphite"
+              gravity={1}
+              damping={0.9}
+              elasticity={0.15}
+              breeze={0}
+              interactive={false}
+              intro
+            />
+          </Suspense>
+        ) : (
+          <LanyardFallback person={person} />
+        )}
+      </div>
+    </figure>
+  )
+}
 
 export default function AboutSection() {
   return (
@@ -14,25 +89,31 @@ export default function AboutSection() {
       <Section id="about">
         <div className="wrap split">
           <div className="split__left">
-            <p className="eyebrow">About ERUPT</p>
-            <h2 className="h2">We built the agency we kept wishing existed.</h2>
+            <p className="eyebrow">
+              <RevealText text="About ERUPT" />
+            </p>
+            <RevealText
+              as="h2"
+              className="h2"
+              text="We built the agency we kept wishing existed."
+            />
           </div>
           <div className="split__right" data-placeholder="true">
-            <p className="lead">
-              ERUPT started with a simple frustration: good brands were being built
-              in fragments. One vendor made the logo. Another ran the ads. A third
-              shot the video. Nobody was responsible for the whole thing.
-            </p>
-            <p className="body">
-              So we built a group that keeps strategy, design, production and
-              performance in one room. The same team that writes the plan makes the
-              work and reads the numbers.
-            </p>
-            <p className="body">
-              Today we work with businesses in Kannur and across Kerala — new
-              startups, established shops, clinics, restaurants, builders and brands
-              ready for their next chapter.
-            </p>
+            <RevealText
+              as="p"
+              className="lead"
+              text="ERUPT started with a simple frustration: good brands were being built in fragments. One vendor made the logo. Another ran the ads. A third shot the video. Nobody was responsible for the whole thing."
+            />
+            <RevealText
+              as="p"
+              className="body"
+              text="So we built a group that keeps strategy, design, production and performance in one room. The same team that writes the plan makes the work and reads the numbers."
+            />
+            <RevealText
+              as="p"
+              className="body"
+              text="Today we work with businesses in Kannur and across Kerala — new startups, established shops, clinics, restaurants, builders and brands ready for their next chapter."
+            />
             <SectionLink className="text-link" section="work">
               See the work <Icon name="arrowUpRight" size={16} />
             </SectionLink>
@@ -40,72 +121,72 @@ export default function AboutSection() {
         </div>
       </Section>
 
+      <Section tone="orange" className="stats">
+        <div className="wrap">
+          <div className="stats__grid">
+            {stats.map((stat) => (
+              <div
+                className="stat"
+                key={stat.label}
+                data-placeholder={stat.assumed ? 'true' : undefined}
+              >
+                <RevealText as="span" className="stat__value" text={stat.value} />
+                <RevealText as="span" className="stat__label" text={stat.label} />
+              </div>
+            ))}
+          </div>
+          <RevealText
+            as="p"
+            className="stats__note"
+            text="Built in Kannur. Working wherever the brand needs to go."
+          />
+        </div>
+      </Section>
+
       <Section tone="surface">
         <div className="wrap">
           <div className="mission-grid" data-placeholder="true">
             <div className="mission-block mission-block--orange">
-              <p className="eyebrow">Mission</p>
-              <p className="mission-block__text">{mission}</p>
+              <p className="eyebrow">
+                <RevealText text="Mission" />
+              </p>
+              <RevealText as="p" className="mission-block__text" text={mission} />
             </div>
             <div className="mission-block mission-block--dark">
-              <p className="eyebrow">Vision</p>
-              <p className="mission-block__text">{vision}</p>
+              <p className="eyebrow">
+                <RevealText text="Vision" />
+              </p>
+              <RevealText as="p" className="mission-block__text" text={vision} />
             </div>
           </div>
         </div>
       </Section>
 
-      <Section>
-        <div className="wrap">
-          <div className="section-head">
-            <div>
-              <p className="eyebrow">What we stand on</p>
-              <h2 className="h2">Five values. No posters on the wall.</h2>
-            </div>
-            <p className="section-head__note">
-              These are the rules we use when the work gets hard.
-            </p>
-          </div>
-
-          <div className="values-list">
-            {values.map((value) => (
-              <div className="value-row" key={value.number}>
-                <span className="mono">{value.number}</span>
-                <h3 className="value-row__title">{value.title}</h3>
-                <p className="value-row__text">{value.text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </Section>
+    
 
       <Section tone="surface">
         <div className="wrap">
           <div className="section-head">
             <div>
-              <p className="eyebrow">The board</p>
-              <h2 className="h2">The people who own the outcome.</h2>
+              <p className="eyebrow">
+                <RevealText text="The board" />
+              </p>
+              <RevealText
+                as="h2"
+                className="h2"
+                text="The people who own the outcome."
+              />
             </div>
-            <p className="section-head__note">
-              A small senior team, close to the work.
-            </p>
+            <RevealText
+              as="p"
+              className="section-head__note"
+              text="A small senior team, close to the work."
+            />
           </div>
 
-          <div className="board-grid">
-            {board.map((person) => (
-              <article className="board-card" key={person.name} data-placeholder="true">
-                <div
-                  className={`board-card__portrait board-card__portrait--${person.tone}`}
-                  aria-hidden="true"
-                >
-                  {person.initials}
-                </div>
-                <div className="board-card__body">
-                  <h3 className="board-card__name">{person.name}</h3>
-                  <p className="board-card__role">{person.role}</p>
-                  <p className="board-card__bio">{person.bio}</p>
-                </div>
-              </article>
+          <div className="board-lanyard-grid">
+            {board.map((person, index) => (
+              <OwnerLanyard key={person.name} person={person} index={index} />
             ))}
           </div>
         </div>

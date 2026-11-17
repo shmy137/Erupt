@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="380" viewBox="0 0 300 380">
+  <defs>
+    <clipPath id="cardClip"><rect width="300" height="380" rx="18" /></clipPath>
+  </defs>
+  <g clip-path="url(#cardClip)">
+    <rect width="300" height="380" fill="#f04925" />
+    <circle cx="258" cy="74" r="126" fill="#1e1e1e" opacity="0.12" />
+    <path d="M0 302 L300 184 L300 380 L0 380 Z" fill="#1e1e1e" opacity="0.08" />
+    <text x="24" y="38" fill="#1e1e1e" font-family="Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="3">ERUPT</text>
+    <text x="276" y="38" text-anchor="end" fill="#1e1e1e" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">01 / 04</text>
+    <text x="20" y="198" fill="#1e1e1e" font-family="Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-6">AN</text>
+    <rect x="24" y="288" width="38" height="4" fill="#1e1e1e" />
+    <text x="24" y="326" fill="#1e1e1e" font-family="Arial, sans-serif" font-size="25" font-weight="700">A. Nair</text>
+    <text x="24" y="350" fill="#1e1e1e" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">FOUNDER &amp; CREATIVE DIRECTOR</text>
+  </g>
+</svg>

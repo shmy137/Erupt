@@ -5,7 +5,7 @@ import { site } from '../data/site'
 
 export default function ContactSection() {
   return (
-    <Section id="contact" className="connect">
+    <Section className="connect">
       <div className="wrap connect__inner">
         <div className="connect__text">
           <h2 className="connect__title">

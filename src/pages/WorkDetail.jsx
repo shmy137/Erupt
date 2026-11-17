@@ -8,7 +8,6 @@ import SectionLink from '../components/SectionLink'
 import CTASection from '../components/CTASection'
 import NotFound from './NotFound'
 import { showcase } from '../data/showcase'
-import { process } from '../data/process'
 
 export default function WorkDetail() {
   const { slug } = useParams()
@@ -119,30 +118,7 @@ export default function WorkDetail() {
         </div>
       </Section>
 
-      <Section>
-        <div className="wrap">
-          <div className="section-head">
-            <div>
-              <p className="eyebrow">How we work</p>
-              <h2 className="h2">Four steps. No mystery.</h2>
-            </div>
-            <p className="section-head__note">
-              Clear scope, visible progress, work that ships.
-            </p>
-          </div>
-
-          <div className="process-grid">
-            {process.map((step) => (
-              <div className="process-step" key={step.number}>
-                <span className="process-step__num">{step.number}</span>
-                <h3 className="process-step__title">{step.title}</h3>
-                <p className="process-step__text">{step.text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </Section>
-
+  
       <CTASection
         eyebrow={`${item.title} · Next step`}
         title="Have a goal for this part of the brand?"

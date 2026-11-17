@@ -1,0 +1,346 @@
+- generic [ref=f1e2]:
+  - link "Skip to content" [ref=f1e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link "ERUPT home" [ref=f1e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e8]: ERUPT
+      - navigation "Main" [ref=f1e9]:
+        - button "About" [ref=f1e10] [cursor=pointer]
+        - button "Services" [ref=f1e11] [cursor=pointer]
+        - button "Work" [ref=f1e12] [cursor=pointer]
+        - button "Contact" [ref=f1e13] [cursor=pointer]
+      - link "Start a project" [ref=f1e15] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=f1e17]:
+    - generic [ref=f1e19]:
+      - generic [ref=f1e20]:
+        - paragraph [ref=f1e21]: Creative + digital · Kannur, Kerala
+        - heading "One team for every side of your brand." [level=1] [ref=f1e22]
+        - paragraph [ref=f1e23]: ERUPT is a 360° creative and digital marketing group. We plan, design, produce and run the whole brand — from the first logo to the last ad.
+        - generic [ref=f1e24]:
+          - link "Start a project" [ref=f1e25] [cursor=pointer]:
+            - /url: /contact
+          - button "See the work" [ref=f1e29] [cursor=pointer]
+        - list "What we do" [ref=f1e34]:
+          - listitem [ref=f1e35]: Branding
+          - listitem [ref=f1e36]: Social
+          - listitem [ref=f1e37]: Video
+          - listitem [ref=f1e38]: Web
+          - listitem [ref=f1e39]: Print
+          - listitem [ref=f1e40]: Ads
+          - listitem [ref=f1e41]: Startup
+      - generic [ref=f1e43]:
+        - generic [ref=f1e44]: The 360°
+        - generic [ref=f1e47]: 360°
+        - generic [ref=f1e48]:
+          - generic [ref=f1e49]:
+            - generic [ref=f1e50]: "01"
+            - generic [ref=f1e51]: Branding & Creative Design
+          - generic [ref=f1e52]:
+            - generic [ref=f1e53]: "02"
+            - generic [ref=f1e54]: Digital Marketing & Social Media
+          - generic [ref=f1e55]:
+            - generic [ref=f1e56]: "03"
+            - generic [ref=f1e57]: Video Production & Photography
+          - generic [ref=f1e58]:
+            - generic [ref=f1e59]: "04"
+            - generic [ref=f1e60]: Website & Digital Solutions
+          - generic [ref=f1e61]:
+            - generic [ref=f1e62]: "05"
+            - generic [ref=f1e63]: Printing & Advertising Solutions
+          - generic [ref=f1e64]:
+            - generic [ref=f1e65]: "06"
+            - generic [ref=f1e66]: Performance Marketing
+          - generic [ref=f1e67]:
+            - generic [ref=f1e68]: "07"
+            - generic [ref=f1e69]: Startup Support & Business Setup
+        - generic [ref=f1e70]:
+          - generic [ref=f1e71]: ERUPT
+          - generic [ref=f1e72]: KANNUR · KERALA
+    - generic [ref=f1e74]:
+      - generic [ref=f1e75]:
+        - paragraph [ref=f1e76]: The problem
+        - heading "Most brands are built in pieces. A logo here, a reel there, ads somewhere else." [level=2] [ref=f1e77]
+      - generic [ref=f1e78]:
+        - paragraph [ref=f1e79]: The pieces rarely add up. The story drifts, the look breaks and nobody owns the whole picture.
+        - paragraph [ref=f1e80]: ERUPT fixes that by keeping strategy, design, production and performance in one room. One brief, one standard, one team that sees the brand from every angle.
+        - button "How we work" [ref=f1e81] [cursor=pointer]
+    - generic [ref=f1e86]:
+      - generic [ref=f1e87]:
+        - generic [ref=f1e88]:
+          - paragraph [ref=f1e89]: What we do
+          - heading "Seven service lines. One connected team." [level=2] [ref=f1e90]
+        - paragraph [ref=f1e91]: Pick a line to see the full scope, or hand us the whole 360°.
+      - generic [ref=f1e92]:
+        - link "01 Branding & Creative Design Identities, packaging and campaign creative that give the brand one clear face. Explore" [ref=f1e93] [cursor=pointer]:
+          - /url: /services/branding
+          - generic [ref=f1e94]: "01"
+          - heading "Branding & Creative Design" [level=3] [ref=f1e102]
+          - paragraph [ref=f1e103]: Identities, packaging and campaign creative that give the brand one clear face.
+          - generic [ref=f1e104]: Explore
+        - link "02 Digital Marketing & Social Media Strategy, content calendars and daily management that keep the brand present. Explore" [ref=f1e108] [cursor=pointer]:
+          - /url: /services/digital
+          - generic [ref=f1e109]: "02"
+          - heading "Digital Marketing & Social Media" [level=3] [ref=f1e114]
+          - paragraph [ref=f1e115]: Strategy, content calendars and daily management that keep the brand present.
+          - generic [ref=f1e116]: Explore
+        - link "03 Video Production & Photography Product films, reels, podcasts and brand stories shot with a reason. Explore" [ref=f1e120] [cursor=pointer]:
+          - /url: /services/video
+          - generic [ref=f1e121]: "03"
+          - heading "Video Production & Photography" [level=3] [ref=f1e126]
+          - paragraph [ref=f1e127]: Product films, reels, podcasts and brand stories shot with a reason.
+          - generic [ref=f1e128]: Explore
+        - link "04 Website & Digital Solutions Fast, clear websites built to sell, rank and stay easy to run. Explore" [ref=f1e132] [cursor=pointer]:
+          - /url: /services/web
+          - generic [ref=f1e133]: "04"
+          - heading "Website & Digital Solutions" [level=3] [ref=f1e138]
+          - paragraph [ref=f1e139]: Fast, clear websites built to sell, rank and stay easy to run.
+          - generic [ref=f1e140]: Explore
+        - link "05 Printing & Advertising Solutions Print, signage, vehicle branding and outdoor media that carry the brand into the street. Explore" [ref=f1e144] [cursor=pointer]:
+          - /url: /services/print
+          - generic [ref=f1e145]: "05"
+          - heading "Printing & Advertising Solutions" [level=3] [ref=f1e151]
+          - paragraph [ref=f1e152]: Print, signage, vehicle branding and outdoor media that carry the brand into the street.
+          - generic [ref=f1e153]: Explore
+        - link "06 Performance Marketing Paid campaigns built around leads, sales and the numbers behind them. Explore" [ref=f1e157] [cursor=pointer]:
+          - /url: /services/performance
+          - generic [ref=f1e158]: "06"
+          - heading "Performance Marketing" [level=3] [ref=f1e162]
+          - paragraph [ref=f1e163]: Paid campaigns built around leads, sales and the numbers behind them.
+          - generic [ref=f1e164]: Explore
+        - link "07 Startup Support & Business Setup Registration, licences, branding and the digital launch, handled in one place. Explore" [ref=f1e168] [cursor=pointer]:
+          - /url: /services/startup
+          - generic [ref=f1e169]: "07"
+          - heading "Startup Support & Business Setup" [level=3] [ref=f1e176]
+          - paragraph [ref=f1e177]: Registration, licences, branding and the digital launch, handled in one place.
+          - generic [ref=f1e178]: Explore
+        - generic [ref=f1e182]:
+          - paragraph [ref=f1e183]: Not sure where to start?
+          - heading "Tell us the goal. We will map the route." [level=3] [ref=f1e184]
+          - link "Talk to us" [ref=f1e185] [cursor=pointer]:
+            - /url: /contact
+    - generic [ref=f1e190]:
+      - generic [ref=f1e191]:
+        - paragraph [ref=f1e192]: The 360°
+        - heading "The whole brand, in one system." [level=2] [ref=f1e193]
+        - paragraph [ref=f1e194]:
+          - generic [ref=f1e195]: One
+          - generic [ref=f1e196]: team
+          - generic [ref=f1e197]: plans
+          - generic [ref=f1e198]: the
+          - generic [ref=f1e199]: whole
+          - generic [ref=f1e200]: brand,
+          - generic [ref=f1e201]: makes
+          - generic [ref=f1e202]: the
+          - generic [ref=f1e203]: content,
+          - generic [ref=f1e204]: runs
+          - generic [ref=f1e205]: the
+          - generic [ref=f1e206]: ads,
+          - generic [ref=f1e207]: builds
+          - generic [ref=f1e208]: the
+          - generic [ref=f1e209]: site
+          - generic [ref=f1e210]: and
+          - generic [ref=f1e211]: prints
+          - generic [ref=f1e212]: the
+          - text: hoarding.
+        - list [ref=f1e213]:
+          - listitem [ref=f1e214]: No handoffs between agencies.
+          - listitem [ref=f1e215]: No gaps between the story and the spend.
+          - listitem [ref=f1e216]: No guessing what the numbers mean.
+      - generic [ref=f1e218]:
+        - generic [ref=f1e219]:
+          - link "01 Branding & Creative Design" [ref=f1e220] [cursor=pointer]:
+            - /url: /services/branding
+            - generic [ref=f1e221]: "01"
+            - generic [ref=f1e228]: Branding & Creative Design
+          - link "02 Digital Marketing & Social Media" [ref=f1e229] [cursor=pointer]:
+            - /url: /services/digital
+            - generic [ref=f1e230]: "02"
+            - generic [ref=f1e234]: Digital Marketing & Social Media
+          - link "03 Video Production & Photography" [ref=f1e235] [cursor=pointer]:
+            - /url: /services/video
+            - generic [ref=f1e236]: "03"
+            - generic [ref=f1e240]: Video Production & Photography
+          - link "07 Startup Support & Business Setup" [ref=f1e241] [cursor=pointer]:
+            - /url: /services/startup
+            - generic [ref=f1e242]: "07"
+            - generic [ref=f1e248]: Startup Support & Business Setup
+          - generic [ref=f1e249]:
+            - generic [ref=f1e250]: ERUPT
+            - generic [ref=f1e251]: 360°
+          - link "04 Website & Digital Solutions" [ref=f1e252] [cursor=pointer]:
+            - /url: /services/web
+            - generic [ref=f1e253]: "04"
+            - generic [ref=f1e257]: Website & Digital Solutions
+          - link "05 Printing & Advertising Solutions" [ref=f1e258] [cursor=pointer]:
+            - /url: /services/print
+            - generic [ref=f1e259]: "05"
+            - generic [ref=f1e264]: Printing & Advertising Solutions
+          - link "06 Performance Marketing" [ref=f1e265] [cursor=pointer]:
+            - /url: /services/performance
+            - generic [ref=f1e266]: "06"
+            - generic [ref=f1e269]: Performance Marketing
+          - generic [ref=f1e270]: One team, one plan
+        - paragraph [ref=f1e274]: Seven service lines. One connected team. That is the 360°.
+    - generic [ref=f1e276]:
+      - generic [ref=f1e277]:
+        - generic [ref=f1e278]:
+          - generic [ref=f1e279]: 50+
+          - generic [ref=f1e280]: Brands served
+        - generic [ref=f1e281]:
+          - generic [ref=f1e282]: 120+
+          - generic [ref=f1e283]: Projects delivered
+        - generic [ref=f1e284]:
+          - generic [ref=f1e285]: "7"
+          - generic [ref=f1e286]: Service lines
+        - generic [ref=f1e287]:
+          - generic [ref=f1e288]: 360°
+          - generic [ref=f1e289]: Brand coverage
+      - paragraph [ref=f1e290]: Built in Kannur. Working wherever the brand needs to go.
+    - generic [ref=f1e291]:
+      - generic [ref=f1e293]:
+        - generic [ref=f1e294]:
+          - paragraph [ref=f1e295]: Work & capabilities
+          - heading "What we build, when the whole brand is in scope." [level=2] [ref=f1e296]
+        - paragraph [ref=f1e297]: A capability showcase, not a client list. Each piece is a system we can build for you.
+      - generic [ref=f1e298]:
+        - article [ref=f1e299]:
+          - img "Brand identity materials, logo and stationery laid out on a desk" [ref=f1e301]
+          - generic [ref=f1e302]:
+            - generic [ref=f1e303]: "01"
+            - heading "Brand identity systems" [level=3] [ref=f1e304]
+            - paragraph [ref=f1e305]: Logo, type, colour, guidelines and the launch kit that holds it together.
+        - article [ref=f1e306]:
+          - img "Product packaging boxes arranged for a brand presentation" [ref=f1e308]
+          - generic [ref=f1e309]:
+            - generic [ref=f1e310]: "02"
+            - heading "Packaging & product design" [level=3] [ref=f1e311]
+            - paragraph [ref=f1e312]: Shelf-ready packaging and product visuals built for the first impression.
+        - article [ref=f1e313]:
+          - img "Social media apps and campaign content shown on a smartphone" [ref=f1e315]
+          - generic [ref=f1e316]:
+            - generic [ref=f1e317]: "03"
+            - heading "Social media campaigns" [level=3] [ref=f1e318]
+            - paragraph [ref=f1e319]: Posters, reels and calendars that keep a brand in the feed without sounding like everyone else.
+        - article [ref=f1e320]:
+          - img "Video camera setup during a film production shoot" [ref=f1e322]
+          - generic [ref=f1e323]:
+            - generic [ref=f1e324]: "04"
+            - heading "Video production" [level=3] [ref=f1e325]
+            - paragraph [ref=f1e326]: Brand films, product videos, testimonials, podcasts and the edits that follow.
+        - article [ref=f1e327]:
+          - img "Marketing analytics dashboard with charts and performance metrics" [ref=f1e329]
+          - generic [ref=f1e330]:
+            - generic [ref=f1e331]: "05"
+            - heading "Performance marketing" [level=3] [ref=f1e332]
+            - paragraph [ref=f1e333]: Meta and Google campaigns built around leads, sales and the numbers behind them.
+        - article [ref=f1e334]:
+          - img "Laptop on a desk showing a website and analytics in a workspace" [ref=f1e336]
+          - generic [ref=f1e337]:
+            - generic [ref=f1e338]: "06"
+            - heading "Website & SEO" [level=3] [ref=f1e339]
+            - paragraph [ref=f1e340]: Business sites, stores and landing pages that load fast and explain the offer clearly.
+        - article [ref=f1e341]:
+          - img "Large outdoor billboard hoarding displayed on a city street" [ref=f1e343]
+          - generic [ref=f1e344]:
+            - generic [ref=f1e345]: "07"
+            - heading "Outdoor, print & hoardings" [level=3] [ref=f1e346]
+            - paragraph [ref=f1e347]: Flex, signage, vehicle branding and outdoor media that carry the brand into the street.
+        - article [ref=f1e348]:
+          - img "Startup team planning a new business launch in a modern workspace" [ref=f1e350]
+          - generic [ref=f1e351]:
+            - generic [ref=f1e352]: "08"
+            - heading "Startup launch" [level=3] [ref=f1e353]
+            - paragraph [ref=f1e354]: Registration, licences, brand identity and the digital setup a new business needs.
+    - generic [ref=f1e356]:
+      - generic [ref=f1e357]:
+        - generic [ref=f1e358]:
+          - paragraph [ref=f1e359]: How we work
+          - heading "Four steps. No mystery." [level=2] [ref=f1e360]
+        - paragraph [ref=f1e361]: Clear scope, visible progress, work that ships.
+      - generic [ref=f1e362]:
+        - generic [ref=f1e363]:
+          - generic [ref=f1e364]: "01"
+          - heading "Discover" [level=3] [ref=f1e365]
+          - paragraph [ref=f1e366]: We listen to the business, the audience and the problem before touching the design.
+        - generic [ref=f1e367]:
+          - generic [ref=f1e368]: "02"
+          - heading "Define" [level=3] [ref=f1e369]
+          - paragraph [ref=f1e370]: "We set the plan: the message, the channels, the calendar and the measure of success."
+        - generic [ref=f1e371]:
+          - generic [ref=f1e372]: "03"
+          - heading "Create" [level=3] [ref=f1e373]
+          - paragraph [ref=f1e374]: We design, shoot, write and build the work in one connected system.
+        - generic [ref=f1e375]:
+          - generic [ref=f1e376]: "04"
+          - heading "Amplify" [level=3] [ref=f1e377]
+          - paragraph [ref=f1e378]: We publish, run the ads, read the numbers and improve the next round.
+    - generic [ref=f1e380]:
+      - generic [ref=f1e381]:
+        - heading "Got an Interesting Project?" [level=2] [ref=f1e382]
+        - heading "Let's Connect." [level=2] [ref=f1e383]
+        - generic [ref=f1e384]:
+          - link "Call now" [ref=f1e385] [cursor=pointer]:
+            - /url: tel:+917306421285
+          - link "Mail us" [ref=f1e388] [cursor=pointer]:
+            - /url: mailto:eruptcreativegroup@gmail.com
+          - link [ref=f1e392] [cursor=pointer]:
+            - /url: https://www.behance.net/eruptcreativegroup
+          - link [ref=f1e395] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/eruptcreativegroup
+          - link [ref=f1e398] [cursor=pointer]:
+            - /url: https://www.instagram.com/eruptcreativegroup
+          - link [ref=f1e401] [cursor=pointer]:
+            - /url: https://dribbble.com/eruptcreativegroup
+      - link [ref=f1e404] [cursor=pointer]:
+        - /url: /contact
+  - contentinfo [ref=f1e409]:
+    - generic [ref=f1e410]:
+      - generic [ref=f1e411]:
+        - generic [ref=f1e412]:
+          - link "ERUPT home" [ref=f1e413] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f1e415]: ERUPT
+          - paragraph [ref=f1e416]: 360° creative and digital marketing from Kannur, Kerala.
+        - generic [ref=f1e417]:
+          - generic [ref=f1e418]:
+            - paragraph [ref=f1e419]: Explore
+            - button "About" [ref=f1e420] [cursor=pointer]
+            - button "Services" [ref=f1e421] [cursor=pointer]
+            - button "Work" [ref=f1e422] [cursor=pointer]
+            - link "Contact" [ref=f1e423] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=f1e424]:
+            - paragraph [ref=f1e425]: Services
+            - link "Branding & Creative Design" [ref=f1e426] [cursor=pointer]:
+              - /url: /services/branding
+            - link "Digital Marketing & Social Media" [ref=f1e427] [cursor=pointer]:
+              - /url: /services/digital
+            - link "Video Production & Photography" [ref=f1e428] [cursor=pointer]:
+              - /url: /services/video
+            - link "Website & Digital Solutions" [ref=f1e429] [cursor=pointer]:
+              - /url: /services/web
+            - link "Printing & Advertising Solutions" [ref=f1e430] [cursor=pointer]:
+              - /url: /services/print
+            - link "Performance Marketing" [ref=f1e431] [cursor=pointer]:
+              - /url: /services/performance
+            - link "Startup Support & Business Setup" [ref=f1e432] [cursor=pointer]:
+              - /url: /services/startup
+          - generic [ref=f1e433]:
+            - paragraph [ref=f1e434]: Contact
+            - link "eruptcreativegroup@gmail.com" [ref=f1e435] [cursor=pointer]:
+              - /url: mailto:eruptcreativegroup@gmail.com
+            - link "+91 73064 21285" [ref=f1e436] [cursor=pointer]:
+              - /url: tel:+917306421285
+            - link "MVN Complex, Mathamangalam" [ref=f1e437] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=MVN+Complex+Mathamangalam+Kannur+Kerala+670306
+            - link "Kannur, Kerala 670306" [ref=f1e438] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=MVN+Complex+Mathamangalam+Kannur+Kerala+670306
+      - generic [ref=f1e439]:
+        - paragraph [ref=f1e440]: © 2026 ERUPT Creative Group. All rights reserved.
+        - generic [ref=f1e441]:
+          - link "Start a project" [ref=f1e442] [cursor=pointer]:
+            - /url: /contact
+          - button "Back to top" [ref=f1e443] [cursor=pointer]

@@ -1,0 +1,852 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "ERUPT home" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e8]: ERUPT
+      - navigation "Main" [ref=e9]:
+        - button "About" [ref=e10] [cursor=pointer]
+        - button "Services" [ref=e11] [cursor=pointer]
+        - button "Work" [ref=e12] [cursor=pointer]
+        - button "Contact" [ref=e13] [cursor=pointer]
+      - link "Start a project" [ref=e15] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: Creative + digital · Kannur, Kerala
+          - heading "One team for every side of your brand." [level=1] [ref=e23]
+          - paragraph [ref=e24]: ERUPT is a 360° creative and digital marketing group. We plan, design, produce and run the whole brand — from the first logo to the last ad.
+          - generic [ref=e25]:
+            - link "Start a project" [ref=e26] [cursor=pointer]:
+              - /url: /contact
+            - button "See the work" [ref=e30] [cursor=pointer]
+          - list "What we do" [ref=e35]:
+            - listitem [ref=e36]: Branding
+            - listitem [ref=e37]: Social
+            - listitem [ref=e38]: Video
+            - listitem [ref=e39]: Web
+            - listitem [ref=e40]: Print
+            - listitem [ref=e41]: Ads
+            - listitem [ref=e42]: Startup
+        - generic [ref=e44]:
+          - generic [ref=e45]: The 360°
+          - generic [ref=e48]: 360°
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - generic [ref=e51]: "01"
+              - generic [ref=e52]: Branding & Creative Design
+            - generic [ref=e53]:
+              - generic [ref=e54]: "02"
+              - generic [ref=e55]: Digital Marketing & Social Media
+            - generic [ref=e56]:
+              - generic [ref=e57]: "03"
+              - generic [ref=e58]: Video Production & Photography
+            - generic [ref=e59]:
+              - generic [ref=e60]: "04"
+              - generic [ref=e61]: Website & Digital Solutions
+            - generic [ref=e62]:
+              - generic [ref=e63]: "05"
+              - generic [ref=e64]: Printing & Advertising Solutions
+            - generic [ref=e65]:
+              - generic [ref=e66]: "06"
+              - generic [ref=e67]: Performance Marketing
+            - generic [ref=e68]:
+              - generic [ref=e69]: "07"
+              - generic [ref=e70]: Startup Support & Business Setup
+          - generic [ref=e71]:
+            - generic [ref=e72]: ERUPT
+            - generic [ref=e73]: KANNUR · KERALA
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - paragraph [ref=e77]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: The
+              - generic [ref=e80]: problem
+          - heading "Most brands are built in pieces. A logo here, a reel there, ads somewhere else." [level=2] [ref=e81]:
+            - generic [ref=e82]: Most
+            - generic [ref=e83]: brands
+            - generic [ref=e84]: are
+            - generic [ref=e85]: built
+            - generic [ref=e86]: in
+            - generic [ref=e87]: pieces.
+            - generic [ref=e88]: A
+            - generic [ref=e89]: logo
+            - generic [ref=e90]: here,
+            - generic [ref=e91]: a
+            - generic [ref=e92]: reel
+            - generic [ref=e93]: there,
+            - generic [ref=e94]: ads
+            - generic [ref=e95]: somewhere
+            - generic [ref=e96]: else.
+        - generic [ref=e97]:
+          - paragraph [ref=e98]:
+            - generic [ref=e99]: The
+            - generic [ref=e100]: pieces
+            - generic [ref=e101]: rarely
+            - generic [ref=e102]: add
+            - generic [ref=e103]: up.
+            - generic [ref=e104]: The
+            - generic [ref=e105]: story
+            - generic [ref=e106]: drifts,
+            - generic [ref=e107]: the
+            - generic [ref=e108]: look
+            - generic [ref=e109]: breaks
+            - generic [ref=e110]: and
+            - generic [ref=e111]: nobody
+            - generic [ref=e112]: owns
+            - generic [ref=e113]: the
+            - generic [ref=e114]: whole
+            - generic [ref=e115]: picture.
+          - paragraph [ref=e116]:
+            - generic [ref=e117]: ERUPT
+            - generic [ref=e118]: fixes
+            - generic [ref=e119]: that
+            - generic [ref=e120]: by
+            - generic [ref=e121]: keeping
+            - generic [ref=e122]: strategy,
+            - generic [ref=e123]: design,
+            - generic [ref=e124]: production
+            - generic [ref=e125]: and
+            - generic [ref=e126]: performance
+            - generic [ref=e127]: in
+            - generic [ref=e128]: one
+            - generic [ref=e129]: room.
+            - generic [ref=e130]: One
+            - generic [ref=e131]: brief,
+            - generic [ref=e132]: one
+            - generic [ref=e133]: standard,
+            - generic [ref=e134]: one
+            - generic [ref=e135]: team
+            - generic [ref=e136]: that
+            - generic [ref=e137]: sees
+            - generic [ref=e138]: the
+            - generic [ref=e139]: brand
+            - generic [ref=e140]: from
+            - generic [ref=e141]: every
+            - generic [ref=e142]: angle.
+          - button "How we work" [ref=e143] [cursor=pointer]
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - paragraph [ref=e150]:
+            - generic [ref=e151]:
+              - generic [ref=e152]: About
+              - generic [ref=e153]: ERUPT
+          - heading "We built the agency we kept wishing existed." [level=2] [ref=e154]:
+            - generic [ref=e155]: We
+            - generic [ref=e156]: built
+            - generic [ref=e157]: the
+            - generic [ref=e158]: agency
+            - generic [ref=e159]: we
+            - generic [ref=e160]: kept
+            - generic [ref=e161]: wishing
+            - generic [ref=e162]: existed.
+        - generic [ref=e163]:
+          - paragraph [ref=e164]:
+            - generic [ref=e165]: ERUPT
+            - generic [ref=e166]: started
+            - generic [ref=e167]: with
+            - generic [ref=e168]: a
+            - generic [ref=e169]: simple
+            - generic [ref=e170]: "frustration:"
+            - generic [ref=e171]: good
+            - generic [ref=e172]: brands
+            - generic [ref=e173]: were
+            - generic [ref=e174]: being
+            - generic [ref=e175]: built
+            - generic [ref=e176]: in
+            - generic [ref=e177]: fragments.
+            - generic [ref=e178]: One
+            - generic [ref=e179]: vendor
+            - generic [ref=e180]: made
+            - generic [ref=e181]: the
+            - generic [ref=e182]: logo.
+            - generic [ref=e183]: Another
+            - generic [ref=e184]: ran
+            - generic [ref=e185]: the
+            - generic [ref=e186]: ads.
+            - generic [ref=e187]: A
+            - generic [ref=e188]: third
+            - generic [ref=e189]: shot
+            - generic [ref=e190]: the
+            - generic [ref=e191]: video.
+            - generic [ref=e192]: Nobody
+            - generic [ref=e193]: was
+            - generic [ref=e194]: responsible
+            - generic [ref=e195]: for
+            - generic [ref=e196]: the
+            - generic [ref=e197]: whole
+            - generic [ref=e198]: thing.
+          - paragraph [ref=e199]:
+            - generic [ref=e200]: So
+            - generic [ref=e201]: we
+            - generic [ref=e202]: built
+            - generic [ref=e203]: a
+            - generic [ref=e204]: group
+            - generic [ref=e205]: that
+            - generic [ref=e206]: keeps
+            - generic [ref=e207]: strategy,
+            - generic [ref=e208]: design,
+            - generic [ref=e209]: production
+            - generic [ref=e210]: and
+            - generic [ref=e211]: performance
+            - generic [ref=e212]: in
+            - generic [ref=e213]: one
+            - generic [ref=e214]: room.
+            - generic [ref=e215]: The
+            - generic [ref=e216]: same
+            - generic [ref=e217]: team
+            - generic [ref=e218]: that
+            - generic [ref=e219]: writes
+            - generic [ref=e220]: the
+            - generic [ref=e221]: plan
+            - generic [ref=e222]: makes
+            - generic [ref=e223]: the
+            - generic [ref=e224]: work
+            - generic [ref=e225]: and
+            - generic [ref=e226]: reads
+            - generic [ref=e227]: the
+            - generic [ref=e228]: numbers.
+          - paragraph [ref=e229]:
+            - generic [ref=e230]: Today
+            - generic [ref=e231]: we
+            - generic [ref=e232]: work
+            - generic [ref=e233]: with
+            - generic [ref=e234]: businesses
+            - generic [ref=e235]: in
+            - generic [ref=e236]: Kannur
+            - generic [ref=e237]: and
+            - generic [ref=e238]: across
+            - generic [ref=e239]: Kerala
+            - generic [ref=e240]: —
+            - generic [ref=e241]: new
+            - generic [ref=e242]: startups,
+            - generic [ref=e243]: established
+            - generic [ref=e244]: shops,
+            - generic [ref=e245]: clinics,
+            - generic [ref=e246]: restaurants,
+            - generic [ref=e247]: builders
+            - generic [ref=e248]: and
+            - generic [ref=e249]: brands
+            - generic [ref=e250]: ready
+            - generic [ref=e251]: for
+            - generic [ref=e252]: their
+            - generic [ref=e253]: next
+            - generic [ref=e254]: chapter.
+          - button "See the work" [ref=e255] [cursor=pointer]
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - generic [ref=e262]:
+            - generic [ref=e263]: 50+
+            - generic [ref=e265]:
+              - generic [ref=e266]: Brands
+              - generic [ref=e267]: served
+          - generic [ref=e268]:
+            - generic [ref=e269]: 120+
+            - generic [ref=e271]:
+              - generic [ref=e272]: Projects
+              - generic [ref=e273]: delivered
+          - generic [ref=e274]:
+            - generic [ref=e275]: "7"
+            - generic [ref=e277]:
+              - generic [ref=e278]: Service
+              - generic [ref=e279]: lines
+          - generic [ref=e280]:
+            - generic [ref=e281]: 360°
+            - generic [ref=e283]:
+              - generic [ref=e284]: Brand
+              - generic [ref=e285]: coverage
+        - paragraph [ref=e286]:
+          - generic [ref=e287]: Built
+          - generic [ref=e288]: in
+          - generic [ref=e289]: Kannur.
+          - generic [ref=e290]: Working
+          - generic [ref=e291]: wherever
+          - generic [ref=e292]: the
+          - generic [ref=e293]: brand
+          - generic [ref=e294]: needs
+          - generic [ref=e295]: to
+          - generic [ref=e296]: go.
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - paragraph [ref=e301]:
+            - generic [ref=e302]: Mission
+          - paragraph [ref=e304]:
+            - generic [ref=e305]: To
+            - generic [ref=e306]: give
+            - generic [ref=e307]: every
+            - generic [ref=e308]: brand
+            - generic [ref=e309]: one
+            - generic [ref=e310]: team,
+            - generic [ref=e311]: one
+            - generic [ref=e312]: plan
+            - generic [ref=e313]: and
+            - generic [ref=e314]: the
+            - generic [ref=e315]: full
+            - generic [ref=e316]: 360°
+            - generic [ref=e317]: of
+            - generic [ref=e318]: creative
+            - generic [ref=e319]: and
+            - generic [ref=e320]: digital
+            - generic [ref=e321]: firepower.
+        - generic [ref=e322]:
+          - paragraph [ref=e323]:
+            - generic [ref=e324]: Vision
+          - paragraph [ref=e326]:
+            - generic [ref=e327]: To
+            - generic [ref=e328]: make
+            - generic [ref=e329]: Kannur
+            - generic [ref=e330]: a
+            - generic [ref=e331]: launchpad
+            - generic [ref=e332]: for
+            - generic [ref=e333]: brands
+            - generic [ref=e334]: that
+            - generic [ref=e335]: compete
+            - generic [ref=e336]: far
+            - generic [ref=e337]: beyond
+            - generic [ref=e338]: it.
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - generic [ref=e342]:
+            - paragraph [ref=e343]:
+              - generic [ref=e344]:
+                - generic [ref=e345]: What
+                - generic [ref=e346]: we
+                - generic [ref=e347]: stand
+                - generic [ref=e348]: "on"
+            - heading "Five values. No posters on the wall." [level=2] [ref=e349]:
+              - generic [ref=e350]: Five
+              - generic [ref=e351]: values.
+              - generic [ref=e352]: "No"
+              - generic [ref=e353]: posters
+              - generic [ref=e354]: "on"
+              - generic [ref=e355]: the
+              - generic [ref=e356]: wall.
+          - paragraph [ref=e357]:
+            - generic [ref=e358]: These
+            - generic [ref=e359]: are
+            - generic [ref=e360]: the
+            - generic [ref=e361]: rules
+            - generic [ref=e362]: we
+            - generic [ref=e363]: use
+            - generic [ref=e364]: when
+            - generic [ref=e365]: the
+            - generic [ref=e366]: work
+            - generic [ref=e367]: gets
+            - generic [ref=e368]: hard.
+        - generic [ref=e369]:
+          - generic [ref=e370]:
+            - generic [ref=e371]: "01"
+            - heading "Clarity" [level=3] [ref=e373]
+            - paragraph [ref=e375]:
+              - generic [ref=e376]: We
+              - generic [ref=e377]: say
+              - generic [ref=e378]: what
+              - generic [ref=e379]: we
+              - generic [ref=e380]: mean
+              - generic [ref=e381]: and
+              - generic [ref=e382]: make
+              - generic [ref=e383]: the
+              - generic [ref=e384]: plan
+              - generic [ref=e385]: easy
+              - generic [ref=e386]: to
+              - generic [ref=e387]: follow.
+          - generic [ref=e388]:
+            - generic [ref=e389]: "02"
+            - heading "Craft" [level=3] [ref=e391]
+            - paragraph [ref=e393]:
+              - generic [ref=e394]: The
+              - generic [ref=e395]: details
+              - generic [ref=e396]: are
+              - generic [ref=e397]: the
+              - generic [ref=e398]: brand.
+              - generic [ref=e399]: We
+              - generic [ref=e400]: sweat
+              - generic [ref=e401]: them.
+          - generic [ref=e402]:
+            - generic [ref=e403]: "03"
+            - heading "Momentum" [level=3] [ref=e405]
+            - paragraph [ref=e407]:
+              - generic [ref=e408]: We
+              - generic [ref=e409]: ship,
+              - generic [ref=e410]: learn
+              - generic [ref=e411]: and
+              - generic [ref=e412]: keep
+              - generic [ref=e413]: moving.
+          - generic [ref=e414]:
+            - generic [ref=e415]: "04"
+            - heading "Ownership" [level=3] [ref=e417]
+            - paragraph [ref=e419]:
+              - generic [ref=e420]: Your
+              - generic [ref=e421]: deadline
+              - generic [ref=e422]: is
+              - generic [ref=e423]: our
+              - generic [ref=e424]: deadline.
+          - generic [ref=e425]:
+            - generic [ref=e426]: "05"
+            - heading "Candor" [level=3] [ref=e428]
+            - paragraph [ref=e430]:
+              - generic [ref=e431]: Honest
+              - generic [ref=e432]: feedback
+              - generic [ref=e433]: beats
+              - generic [ref=e434]: polite
+              - generic [ref=e435]: noise.
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - generic [ref=e439]:
+            - paragraph [ref=e440]:
+              - generic [ref=e441]:
+                - generic [ref=e442]: The
+                - generic [ref=e443]: board
+            - heading "The people who own the outcome." [level=2] [ref=e444]:
+              - generic [ref=e445]: The
+              - generic [ref=e446]: people
+              - generic [ref=e447]: who
+              - generic [ref=e448]: own
+              - generic [ref=e449]: the
+              - generic [ref=e450]: outcome.
+          - paragraph [ref=e451]:
+            - generic [ref=e452]: A
+            - generic [ref=e453]: small
+            - generic [ref=e454]: senior
+            - generic [ref=e455]: team,
+            - generic [ref=e456]: close
+            - generic [ref=e457]: to
+            - generic [ref=e458]: the
+            - generic [ref=e459]: work.
+        - generic [ref=e460]:
+          - figure [ref=e461]:
+            - generic [aria-hidden] [ref=e463]: AN
+          - figure [ref=e464]:
+            - generic [aria-hidden] [ref=e466]: RM
+          - figure [ref=e467]:
+            - generic [aria-hidden] [ref=e469]: SJ
+          - figure [ref=e470]:
+            - generic [aria-hidden] [ref=e472]: KR
+      - generic [ref=e474]:
+        - generic [ref=e475]:
+          - generic [ref=e476]:
+            - paragraph [ref=e477]:
+              - generic [ref=e478]:
+                - generic [ref=e479]: What
+                - generic [ref=e480]: we
+                - generic [ref=e481]: do
+            - heading "Seven service lines. One connected team." [level=2] [ref=e482]:
+              - generic [ref=e483]: Seven
+              - generic [ref=e484]: service
+              - generic [ref=e485]: lines.
+              - generic [ref=e486]: One
+              - generic [ref=e487]: connected
+              - generic [ref=e488]: team.
+          - paragraph [ref=e489]:
+            - generic [ref=e490]: Pick
+            - generic [ref=e491]: a
+            - generic [ref=e492]: line
+            - generic [ref=e493]: to
+            - generic [ref=e494]: see
+            - generic [ref=e495]: the
+            - generic [ref=e496]: full
+            - generic [ref=e497]: scope,
+            - generic [ref=e498]: or
+            - generic [ref=e499]: hand
+            - generic [ref=e500]: us
+            - generic [ref=e501]: the
+            - generic [ref=e502]: whole
+            - generic [ref=e503]: 360°.
+        - generic [ref=e504]:
+          - link "01 Branding & Creative Design Identities, packaging and campaign creative that give the brand one clear face. Explore" [ref=e505] [cursor=pointer]:
+            - /url: /services/branding
+            - generic [ref=e506]: "01"
+            - heading "Branding & Creative Design" [level=3] [ref=e514]:
+              - generic [ref=e515]: Branding
+              - generic [ref=e516]: "&"
+              - generic [ref=e517]: Creative
+              - generic [ref=e518]: Design
+            - paragraph [ref=e519]:
+              - generic [ref=e520]: Identities,
+              - generic [ref=e521]: packaging
+              - generic [ref=e522]: and
+              - generic [ref=e523]: campaign
+              - generic [ref=e524]: creative
+              - generic [ref=e525]: that
+              - generic [ref=e526]: give
+              - generic [ref=e527]: the
+              - generic [ref=e528]: brand
+              - generic [ref=e529]: one
+              - generic [ref=e530]: clear
+              - generic [ref=e531]: face.
+            - generic [ref=e532]: Explore
+          - link "02 Digital Marketing & Social Media Strategy, content calendars and daily management that keep the brand present. Explore" [ref=e536] [cursor=pointer]:
+            - /url: /services/digital
+            - generic [ref=e537]: "02"
+            - heading "Digital Marketing & Social Media" [level=3] [ref=e542]:
+              - generic [ref=e543]: Digital
+              - generic [ref=e544]: Marketing
+              - generic [ref=e545]: "&"
+              - generic [ref=e546]: Social
+              - generic [ref=e547]: Media
+            - paragraph [ref=e548]:
+              - generic [ref=e549]: Strategy,
+              - generic [ref=e550]: content
+              - generic [ref=e551]: calendars
+              - generic [ref=e552]: and
+              - generic [ref=e553]: daily
+              - generic [ref=e554]: management
+              - generic [ref=e555]: that
+              - generic [ref=e556]: keep
+              - generic [ref=e557]: the
+              - generic [ref=e558]: brand
+              - generic [ref=e559]: present.
+            - generic [ref=e560]: Explore
+          - link "03 Video Production & Photography Product films, reels, podcasts and brand stories shot with a reason. Explore" [ref=e564] [cursor=pointer]:
+            - /url: /services/video
+            - generic [ref=e565]: "03"
+            - heading "Video Production & Photography" [level=3] [ref=e570]:
+              - generic [ref=e571]: Video
+              - generic [ref=e572]: Production
+              - generic [ref=e573]: "&"
+              - generic [ref=e574]: Photography
+            - paragraph [ref=e575]:
+              - generic [ref=e576]: Product
+              - generic [ref=e577]: films,
+              - generic [ref=e578]: reels,
+              - generic [ref=e579]: podcasts
+              - generic [ref=e580]: and
+              - generic [ref=e581]: brand
+              - generic [ref=e582]: stories
+              - generic [ref=e583]: shot
+              - generic [ref=e584]: with
+              - generic [ref=e585]: a
+              - generic [ref=e586]: reason.
+            - generic [ref=e587]: Explore
+          - link "04 Website & Digital Solutions Fast, clear websites built to sell, rank and stay easy to run. Explore" [ref=e591] [cursor=pointer]:
+            - /url: /services/web
+            - generic [ref=e592]: "04"
+            - heading "Website & Digital Solutions" [level=3] [ref=e597]:
+              - generic [ref=e598]: Website
+              - generic [ref=e599]: "&"
+              - generic [ref=e600]: Digital
+              - generic [ref=e601]: Solutions
+            - paragraph [ref=e602]:
+              - generic [ref=e603]: Fast,
+              - generic [ref=e604]: clear
+              - generic [ref=e605]: websites
+              - generic [ref=e606]: built
+              - generic [ref=e607]: to
+              - generic [ref=e608]: sell,
+              - generic [ref=e609]: rank
+              - generic [ref=e610]: and
+              - generic [ref=e611]: stay
+              - generic [ref=e612]: easy
+              - generic [ref=e613]: to
+              - generic [ref=e614]: run.
+            - generic [ref=e615]: Explore
+          - link "05 Printing & Advertising Solutions Print, signage, vehicle branding and outdoor media that carry the brand into the street. Explore" [ref=e619] [cursor=pointer]:
+            - /url: /services/print
+            - generic [ref=e620]: "05"
+            - heading "Printing & Advertising Solutions" [level=3] [ref=e626]:
+              - generic [ref=e627]: Printing
+              - generic [ref=e628]: "&"
+              - generic [ref=e629]: Advertising
+              - generic [ref=e630]: Solutions
+            - paragraph [ref=e631]:
+              - generic [ref=e632]: Print,
+              - generic [ref=e633]: signage,
+              - generic [ref=e634]: vehicle
+              - generic [ref=e635]: branding
+              - generic [ref=e636]: and
+              - generic [ref=e637]: outdoor
+              - generic [ref=e638]: media
+              - generic [ref=e639]: that
+              - generic [ref=e640]: carry
+              - generic [ref=e641]: the
+              - generic [ref=e642]: brand
+              - generic [ref=e643]: into
+              - generic [ref=e644]: the
+              - generic [ref=e645]: street.
+            - generic [ref=e646]: Explore
+          - link "06 Performance Marketing Paid campaigns built around leads, sales and the numbers behind them. Explore" [ref=e650] [cursor=pointer]:
+            - /url: /services/performance
+            - generic [ref=e651]: "06"
+            - heading "Performance Marketing" [level=3] [ref=e655]:
+              - generic [ref=e656]: Performance
+              - generic [ref=e657]: Marketing
+            - paragraph [ref=e658]:
+              - generic [ref=e659]: Paid
+              - generic [ref=e660]: campaigns
+              - generic [ref=e661]: built
+              - generic [ref=e662]: around
+              - generic [ref=e663]: leads,
+              - generic [ref=e664]: sales
+              - generic [ref=e665]: and
+              - generic [ref=e666]: the
+              - generic [ref=e667]: numbers
+              - generic [ref=e668]: behind
+              - generic [ref=e669]: them.
+            - generic [ref=e670]: Explore
+          - link "07 Startup Support & Business Setup Registration, licences, branding and the digital launch, handled in one place. Explore" [ref=e674] [cursor=pointer]:
+            - /url: /services/startup
+            - generic [ref=e675]: "07"
+            - heading "Startup Support & Business Setup" [level=3] [ref=e682]:
+              - generic [ref=e683]: Startup
+              - generic [ref=e684]: Support
+              - generic [ref=e685]: "&"
+              - generic [ref=e686]: Business
+              - generic [ref=e687]: Setup
+            - paragraph [ref=e688]:
+              - generic [ref=e689]: Registration,
+              - generic [ref=e690]: licences,
+              - generic [ref=e691]: branding
+              - generic [ref=e692]: and
+              - generic [ref=e693]: the
+              - generic [ref=e694]: digital
+              - generic [ref=e695]: launch,
+              - generic [ref=e696]: handled
+              - generic [ref=e697]: in
+              - generic [ref=e698]: one
+              - generic [ref=e699]: place.
+            - generic [ref=e700]: Explore
+          - generic [ref=e704]:
+            - paragraph [ref=e705]: Not sure where to start?
+            - heading "Tell us the goal. We will map the route." [level=3] [ref=e706]:
+              - generic [ref=e707]: Tell
+              - generic [ref=e708]: us
+              - generic [ref=e709]: the
+              - generic [ref=e710]: goal.
+              - generic [ref=e711]: We
+              - generic [ref=e712]: will
+              - generic [ref=e713]: map
+              - generic [ref=e714]: the
+              - generic [ref=e715]: route.
+            - link "Talk to us" [ref=e716] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e721]:
+        - generic [ref=e722]:
+          - paragraph [ref=e723]:
+            - generic [ref=e724]:
+              - generic [ref=e725]: The
+              - generic [ref=e726]: 360°
+          - heading "The whole brand, in one system." [level=2] [ref=e727]:
+            - generic [ref=e728]: The
+            - generic [ref=e729]: whole
+            - generic [ref=e730]: brand,
+            - generic [ref=e731]: in
+            - generic [ref=e732]: one
+            - generic [ref=e733]: system.
+          - paragraph [ref=e734]: One team plans the whole brand, makes the content, runs the ads, builds the site and prints the hoarding.
+          - list [ref=e735]:
+            - listitem [ref=e736]:
+              - generic [ref=e737]:
+                - generic [ref=e738]: "No"
+                - generic [ref=e739]: handoffs
+                - generic [ref=e740]: between
+                - generic [ref=e741]: agencies.
+            - listitem [ref=e742]:
+              - generic [ref=e743]:
+                - generic [ref=e744]: "No"
+                - generic [ref=e745]: gaps
+                - generic [ref=e746]: between
+                - generic [ref=e747]: the
+                - generic [ref=e748]: story
+                - generic [ref=e749]: and
+                - generic [ref=e750]: the
+                - generic [ref=e751]: spend.
+            - listitem [ref=e752]:
+              - generic [ref=e753]:
+                - generic [ref=e754]: "No"
+                - generic [ref=e755]: guessing
+                - generic [ref=e756]: what
+                - generic [ref=e757]: the
+                - generic [ref=e758]: numbers
+                - generic [ref=e759]: mean.
+        - generic [ref=e761]:
+          - generic [ref=e762]:
+            - link "01 Branding & Creative Design" [ref=e763] [cursor=pointer]:
+              - /url: /services/branding
+              - generic [ref=e764]: "01"
+              - generic [ref=e771]: Branding & Creative Design
+            - link "02 Digital Marketing & Social Media" [ref=e772] [cursor=pointer]:
+              - /url: /services/digital
+              - generic [ref=e773]: "02"
+              - generic [ref=e777]: Digital Marketing & Social Media
+            - link "03 Video Production & Photography" [ref=e778] [cursor=pointer]:
+              - /url: /services/video
+              - generic [ref=e779]: "03"
+              - generic [ref=e783]: Video Production & Photography
+            - link "07 Startup Support & Business Setup" [ref=e784] [cursor=pointer]:
+              - /url: /services/startup
+              - generic [ref=e785]: "07"
+              - generic [ref=e791]: Startup Support & Business Setup
+            - generic [ref=e792]:
+              - generic [ref=e793]: ERUPT
+              - generic [ref=e794]: 360°
+            - link "04 Website & Digital Solutions" [ref=e795] [cursor=pointer]:
+              - /url: /services/web
+              - generic [ref=e796]: "04"
+              - generic [ref=e800]: Website & Digital Solutions
+            - link "05 Printing & Advertising Solutions" [ref=e801] [cursor=pointer]:
+              - /url: /services/print
+              - generic [ref=e802]: "05"
+              - generic [ref=e807]: Printing & Advertising Solutions
+            - link "06 Performance Marketing" [ref=e808] [cursor=pointer]:
+              - /url: /services/performance
+              - generic [ref=e809]: "06"
+              - generic [ref=e812]: Performance Marketing
+            - generic [ref=e813]: One team, one plan
+          - paragraph [ref=e817]: Seven service lines. One connected team. That is the 360°.
+      - generic [ref=e818]:
+        - generic [ref=e820]:
+          - generic [ref=e821]:
+            - paragraph [ref=e822]:
+              - generic [ref=e823]:
+                - generic [ref=e824]: Work
+                - generic [ref=e825]: "&"
+                - generic [ref=e826]: capabilities
+            - heading "What we build, when the whole brand is in scope." [level=2] [ref=e827]:
+              - generic [ref=e828]: What
+              - generic [ref=e829]: we
+              - generic [ref=e830]: build,
+              - generic [ref=e831]: when
+              - generic [ref=e832]: the
+              - generic [ref=e833]: whole
+              - generic [ref=e834]: brand
+              - generic [ref=e835]: is
+              - generic [ref=e836]: in
+              - generic [ref=e837]: scope.
+          - paragraph [ref=e838]:
+            - generic [ref=e839]: A
+            - generic [ref=e840]: capability
+            - generic [ref=e841]: showcase,
+            - generic [ref=e842]: not
+            - generic [ref=e843]: a
+            - generic [ref=e844]: client
+            - generic [ref=e845]: list.
+            - generic [ref=e846]: Each
+            - generic [ref=e847]: piece
+            - generic [ref=e848]: is
+            - generic [ref=e849]: a
+            - generic [ref=e850]: system
+            - generic [ref=e851]: we
+            - generic [ref=e852]: can
+            - generic [ref=e853]: build
+            - generic [ref=e854]: for
+            - generic [ref=e855]: you.
+        - generic [ref=e857]:
+          - generic [ref=e859]:
+            - img "Brand identity materials, logo and stationery laid out on a desk" [ref=e861]
+            - generic [ref=e862]:
+              - generic [ref=e863]: "01"
+              - heading "Brand identity systems" [level=3] [ref=e864]
+              - paragraph [ref=e865]: Logo, type, colour, guidelines and the launch kit that holds it together.
+          - generic [ref=e868]:
+            - img "Product packaging boxes arranged for a brand presentation" [ref=e870]
+            - generic [ref=e871]:
+              - generic [ref=e872]: "02"
+              - heading "Packaging & product design" [level=3] [ref=e873]
+              - paragraph [ref=e874]: Shelf-ready packaging and product visuals built for the first impression.
+          - generic [ref=e877]:
+            - img "Social media apps and campaign content shown on a smartphone" [ref=e879]
+            - generic [ref=e880]:
+              - generic [ref=e881]: "03"
+              - heading "Social media campaigns" [level=3] [ref=e882]
+              - paragraph [ref=e883]: Posters, reels and calendars that keep a brand in the feed without sounding like everyone else.
+          - generic [ref=e886]:
+            - img "Video camera setup during a film production shoot" [ref=e888]
+            - generic [ref=e889]:
+              - generic [ref=e890]: "04"
+              - heading "Video production" [level=3] [ref=e891]
+              - paragraph [ref=e892]: Brand films, product videos, testimonials, podcasts and the edits that follow.
+          - generic [ref=e895]:
+            - img "Marketing analytics dashboard with charts and performance metrics" [ref=e897]
+            - generic [ref=e898]:
+              - generic [ref=e899]: "05"
+              - heading "Performance marketing" [level=3] [ref=e900]
+              - paragraph [ref=e901]: Meta and Google campaigns built around leads, sales and the numbers behind them.
+          - generic [ref=e904]:
+            - img "Laptop on a desk showing a website and analytics in a workspace" [ref=e906]
+            - generic [ref=e907]:
+              - generic [ref=e908]: "06"
+              - heading "Website & SEO" [level=3] [ref=e909]
+              - paragraph [ref=e910]: Business sites, stores and landing pages that load fast and explain the offer clearly.
+          - generic [ref=e913]:
+            - img "Large outdoor billboard hoarding displayed on a city street" [ref=e915]
+            - generic [ref=e916]:
+              - generic [ref=e917]: "07"
+              - heading "Outdoor, print & hoardings" [level=3] [ref=e918]
+              - paragraph [ref=e919]: Flex, signage, vehicle branding and outdoor media that carry the brand into the street.
+          - generic [ref=e922]:
+            - img "Startup team planning a new business launch in a modern workspace" [ref=e924]
+            - generic [ref=e925]:
+              - generic [ref=e926]: "08"
+              - heading "Startup launch" [level=3] [ref=e927]
+              - paragraph [ref=e928]: Registration, licences, brand identity and the digital setup a new business needs.
+    - generic [ref=e933]:
+      - generic [ref=e934]:
+        - heading "Got an Interesting Project?" [level=2] [ref=e935]
+        - heading "Let's Connect." [level=2] [ref=e936]
+        - generic [ref=e937]:
+          - link "Call now" [ref=e938] [cursor=pointer]:
+            - /url: tel:+917306421285
+          - link "Mail us" [ref=e941] [cursor=pointer]:
+            - /url: mailto:eruptcreativegroup@gmail.com
+          - link [ref=e945] [cursor=pointer]:
+            - /url: https://www.behance.net/eruptcreativegroup
+          - link [ref=e948] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/eruptcreativegroup
+          - link [ref=e951] [cursor=pointer]:
+            - /url: https://www.instagram.com/eruptcreativegroup
+          - link [ref=e954] [cursor=pointer]:
+            - /url: https://dribbble.com/eruptcreativegroup
+      - link [ref=e957] [cursor=pointer]:
+        - /url: /contact
+  - contentinfo [ref=e962]:
+    - generic [ref=e963]:
+      - generic [ref=e964]:
+        - generic [ref=e965]:
+          - link "ERUPT home" [ref=e966] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e968]: ERUPT
+          - paragraph [ref=e969]: 360° creative and digital marketing from Kannur, Kerala.
+        - generic [ref=e970]:
+          - generic [ref=e971]:
+            - paragraph [ref=e972]: Explore
+            - button "About" [ref=e973] [cursor=pointer]
+            - button "Services" [ref=e974] [cursor=pointer]
+            - button "Work" [ref=e975] [cursor=pointer]
+            - link "Contact" [ref=e976] [cursor=pointer]:
+              - /url: /contact
+          - generic [ref=e977]:
+            - paragraph [ref=e978]: Services
+            - link "Branding & Creative Design" [ref=e979] [cursor=pointer]:
+              - /url: /services/branding
+            - link "Digital Marketing & Social Media" [ref=e980] [cursor=pointer]:
+              - /url: /services/digital
+            - link "Video Production & Photography" [ref=e981] [cursor=pointer]:
+              - /url: /services/video
+            - link "Website & Digital Solutions" [ref=e982] [cursor=pointer]:
+              - /url: /services/web
+            - link "Printing & Advertising Solutions" [ref=e983] [cursor=pointer]:
+              - /url: /services/print
+            - link "Performance Marketing" [ref=e984] [cursor=pointer]:
+              - /url: /services/performance
+            - link "Startup Support & Business Setup" [ref=e985] [cursor=pointer]:
+              - /url: /services/startup
+          - generic [ref=e986]:
+            - paragraph [ref=e987]: Contact
+            - link "eruptcreativegroup@gmail.com" [ref=e988] [cursor=pointer]:
+              - /url: mailto:eruptcreativegroup@gmail.com
+            - link "+91 73064 21285" [ref=e989] [cursor=pointer]:
+              - /url: tel:+917306421285
+            - link "MVN Complex, Mathamangalam" [ref=e990] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=MVN+Complex+Mathamangalam+Kannur+Kerala+670306
+            - link "Kannur, Kerala 670306" [ref=e991] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=MVN+Complex+Mathamangalam+Kannur+Kerala+670306
+      - generic [ref=e992]:
+        - paragraph [ref=e993]: © 2026 ERUPT Creative Group. All rights reserved.
+        - generic [ref=e994]:
+          - link "Start a project" [ref=e995] [cursor=pointer]:
+            - /url: /contact
+          - button "Back to top" [ref=e996] [cursor=pointer]
