@@ -12,7 +12,6 @@ const initialForm = {
   email: '',
   company: '',
   service: '',
-  budget: '',
   message: '',
 }
 
@@ -33,7 +32,6 @@ export default function Contact() {
       `Email: ${form.email}`,
       `Company: ${form.company || '—'}`,
       `Service: ${form.service || 'Not sure yet'}`,
-      `Budget: ${form.budget || 'Not sure yet'}`,
       '',
       form.message,
     ].join('\n')
@@ -188,19 +186,6 @@ export default function Contact() {
                       ))}
                     </select>
                   </div>
-                </div>
-
-                <div className="field">
-                  <label htmlFor="budget">
-                    Budget range <span className="field__optional">(optional)</span>
-                  </label>
-                  <select id="budget" name="budget" value={form.budget} onChange={update}>
-                    <option value="">Not sure yet</option>
-                    <option value="Under ₹25,000">Under ₹25,000</option>
-                    <option value="₹25,000 – ₹75,000">₹25,000 – ₹75,000</option>
-                    <option value="₹75,000 – ₹2,00,000">₹75,000 – ₹2,00,000</option>
-                    <option value="₹2,00,000+">₹2,00,000+</option>
-                  </select>
                 </div>
 
                 <div className="field">

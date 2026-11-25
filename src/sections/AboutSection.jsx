@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect, useRef, useState } from 'react'
 import Section from '../components/Section'
 import SectionLink from '../components/SectionLink'
 import RevealText from '../components/RevealText'
+import CountUp from '../components/CountUp'
 import Icon from '../components/Icon'
 import { board, ownerCardAssets } from '../data/board'
 import { stats } from '../data/stats'
@@ -130,7 +131,7 @@ export default function AboutSection() {
                 key={stat.label}
                 data-placeholder={stat.assumed ? 'true' : undefined}
               >
-                <RevealText as="span" className="stat__value" text={stat.value} />
+                <CountUp className="stat__value" value={stat.value} />
                 <RevealText as="span" className="stat__label" text={stat.label} />
               </div>
             ))}
@@ -161,8 +162,6 @@ export default function AboutSection() {
           </div>
         </div>
       </Section>
-
-    
 
       <Section tone="surface">
         <div className="wrap">
