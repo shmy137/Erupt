@@ -9,9 +9,7 @@ import { stats } from '../data/stats'
 
 const Lanyard = lazy(() => import('../components/Lanyard'))
 
-const mission =
-  'To give every brand one team, one plan and the full 360° of creative and digital firepower.'
-const vision = 'To make Kannur a launchpad for brands that compete far beyond it.'
+
 
 function LanyardFallback({ person }) {
   return (
@@ -144,24 +142,7 @@ export default function AboutSection() {
         </div>
       </Section>
 
-      <Section tone="surface">
-        <div className="wrap">
-          <div className="mission-grid" data-placeholder="true">
-            <div className="mission-block mission-block--orange">
-              <p className="eyebrow">
-                <RevealText text="Mission" />
-              </p>
-              <RevealText as="p" className="mission-block__text" text={mission} />
-            </div>
-            <div className="mission-block mission-block--dark">
-              <p className="eyebrow">
-                <RevealText text="Vision" />
-              </p>
-              <RevealText as="p" className="mission-block__text" text={vision} />
-            </div>
-          </div>
-        </div>
-      </Section>
+    
 
       <Section tone="surface">
         <div className="wrap">

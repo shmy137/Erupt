@@ -1298,46 +1298,7 @@ p {
   color: var(--ink);
 }
 
-.mission-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
 
-.mission-block {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  min-height: 280px;
-  padding: clamp(28px, 4vw, 56px);
-  border-radius: var(--radius-lg);
-}
-
-.mission-block--orange {
-  background: var(--accent);
-  color: var(--ink);
-}
-
-.mission-block--dark {
-  background: var(--ink);
-  color: var(--white);
-}
-
-.mission-block .eyebrow {
-  color: inherit;
-}
-
-.mission-block .eyebrow::before {
-  background: currentColor;
-}
-
-.mission-block__text {
-  margin-top: auto;
-  font-size: clamp(1.4rem, 2.4vw, 2rem);
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.025em;
-}
 
 .values-list {
   border-top: 1px solid var(--line);
@@ -2170,9 +2131,7 @@ p {
     justify-self: start;
   }
 
-  .mission-grid {
-    grid-template-columns: 1fr;
-  }
+
 
   .value-row {
     grid-template-columns: 48px 1fr;
