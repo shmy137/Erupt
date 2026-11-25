@@ -129,17 +129,7 @@ export default function Home() {
                 text="One team plans the whole brand, makes the content, runs the ads, builds the site and prints the hoarding."
                 highlight={['one', 'team', 'whole', 'brand']}
               />
-              <ul className="dot-list dot-list--inverse">
-                <li>
-                  <RevealText text="No handoffs between agencies." />
-                </li>
-                <li>
-                  <RevealText text="No gaps between the story and the spend." />
-                </li>
-                <li>
-                  <RevealText text="No guessing what the numbers mean." />
-                </li>
-              </ul>
+             
             </div>
             <div className="split__right">
               <Diagram360 />

@@ -22,10 +22,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <title>ERUPT Creative Group — 360° Creative & Digital Marketing, Kannur</title>
+    <style>
+      html.intro-pending,
+      html.intro-pending body {
+        background: #000;
+      }
+    </style>
+    <script>
+      (function () {
+        // Runs before first paint: mark that the intro should play this session.
+        // IntroLoader.jsx reads this class to decide whether to skip.
+        try {
+          var seen = sessionStorage.getItem('erupt-intro-seen')
+          var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+          if (!seen && !reduce) document.documentElement.classList.add('intro-pending')
+        } catch (e) {
+          // sessionStorage unavailable — play the intro every load
+          document.documentElement.classList.add('intro-pending')
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

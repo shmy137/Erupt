@@ -6,6 +6,7 @@ import Button from '../components/Button'
 import Icon from '../components/Icon'
 import SectionLink from '../components/SectionLink'
 import CTASection from '../components/CTASection'
+import RevealText from '../components/RevealText'
 import NotFound from './NotFound'
 import { services } from '../data/services'
 
@@ -50,20 +51,22 @@ export default function ServiceDetail() {
                   <Icon name={service.icon} size={22} />
                 </span>
               </div>
-              <h2 className="h2">What this service covers.</h2>
-              <p className="lead">{service.short}</p>
-              <p className="body">
-                Every engagement is scoped to the brand. We start with the problem,
-                agree the deliverables and keep strategy, design and production in
-                one room.
-              </p>
+              <RevealText as="h2" className="h2" text="What this service covers." />
+              <RevealText as="p" className="lead" text={service.short} />
+              <RevealText
+                as="p"
+                className="body"
+                text="Every engagement is scoped to the brand. We start with the problem, agree the deliverables and keep strategy, design and production in one room."
+              />
               <Button to="/contact" variant="ghost" size="sm" icon="arrow">
                 Start a project
               </Button>
             </div>
 
             <div className="detail-list-wrap">
-              <p className="eyebrow">Deliverables</p>
+              <p className="eyebrow">
+                <RevealText text="Deliverables" />
+              </p>
               <ul className="service-block__list">
                 {service.items.map((item) => (
                   <li key={item}>
@@ -81,13 +84,20 @@ export default function ServiceDetail() {
         <div className="wrap">
           <div className="section-head">
             <div>
-              <p className="eyebrow">Other service lines</p>
-              <h2 className="h2">The brand rarely needs just one.</h2>
+              <p className="eyebrow">
+                <RevealText text="Other service lines" />
+              </p>
+              <RevealText
+                as="h2"
+                className="h2"
+                text="The brand rarely needs just one."
+              />
             </div>
-            <p className="section-head__note">
-              Most projects touch two or three service lines. Here is the rest of the
-              360°.
-            </p>
+            <RevealText
+              as="p"
+              className="section-head__note"
+              text="Most projects touch two or three service lines. Here is the rest of the 360°."
+            />
           </div>
 
           <div className="service-grid">
@@ -97,8 +107,16 @@ export default function ServiceDetail() {
                   <span className="mono">{item.number}</span>
                   <Icon name={item.icon} size={22} />
                 </div>
-                <h3 className="service-card__title">{item.title}</h3>
-                <p className="service-card__text">{item.short}</p>
+                <RevealText
+                  as="h3"
+                  className="service-card__title"
+                  text={item.title}
+                />
+                <RevealText
+                  as="p"
+                  className="service-card__text"
+                  text={item.short}
+                />
                 <span className="service-card__more">
                   Explore <Icon name="arrowUpRight" size={14} />
                 </span>

@@ -1,0 +1,239 @@
+﻿/* Intro sequence — black dots → orange drop → line → wave → orange fills
+   → erupt letter-by-letter on orange → doors wipe to home.
+   Timeline: dots 0–0.9s, orb 0.9s+2.1s, warp 2.3–2.58s, fill 2.7s,
+   logo 3.3s, reveal 4.6s, doors 0.75s, unmount 5.4s — see IntroLoader.jsx. */
+
+.erupt-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 150; /* above nav (100) and mobile menu (90), below skip-link (200) */
+  overflow: hidden;
+  user-select: none;
+  background: #000;
+}
+
+/* Swap at reveal: doors fully cover the screen, so the black backing can
+   go transparent without a visible change — doors slide away to the page. */
+.erupt-intro.erupt-intro--revealing {
+  background: transparent;
+}
+
+.erupt-intro__dots {
+  position: absolute;
+  inset: -6%;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.9) 1.5px, transparent 1.9px),
+    radial-gradient(circle, rgba(255, 255, 255, 0.28) 1px, transparent 1.4px);
+  background-size: 56px 56px, 56px 56px;
+  background-position: 0 0, 28px 28px;
+  animation: intro-dots 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.erupt-intro__dots::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.55) 1.2px, transparent 1.6px);
+  background-size: 56px 56px;
+  background-position: 28px 28px;
+  opacity: 0.3;
+  animation: intro-twinkle 1.8s ease-in-out 0.9s infinite;
+}
+
+.erupt-intro__orb {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 32px rgba(240, 73, 37, 0.6);
+  transform: translate(-50%, -50%) translateY(-70vh) scale(1, 1);
+  animation: intro-erupt 2.1s cubic-bezier(0.16, 1, 0.3, 1) 0.9s both;
+  will-change: transform, width, height;
+}
+
+.erupt-intro__warpsvg {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.erupt-intro__orb.erupt-intro__orb--warp {
+  /* feDisplacementMap warp — identity while SMIL scale is 0 */
+  filter: url(#erupt-warp);
+}
+
+/* Centered on the full orange screen (no line underline offset). */
+.erupt-intro__logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: min(360px, 72vw);
+  height: calc(min(360px, 72vw) * 234 / 609);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.erupt-intro--logo .erupt-intro__logo {
+  opacity: 1;
+}
+
+.erupt-intro__logo-letter {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-image: url('/intro-erupt-letters.png');
+  background-repeat: no-repeat;
+  opacity: 0;
+  transform: translateY(14px);
+  /* White sprite → dark ink on the orange field */
+  filter: brightness(0) saturate(100%);
+}
+
+.erupt-intro--logo .erupt-intro__logo-letter {
+  animation: intro-letter 0.48s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: calc(var(--i) * 0.14s);
+}
+
+/* Hide mark as doors take over so it doesn't pop off. */
+.erupt-intro--revealing .erupt-intro__logo {
+  opacity: 0;
+}
+
+/* After the line holds, expand it into the full orange page. */
+.erupt-intro--fill .erupt-intro__orb {
+  animation: intro-fill 0.55s cubic-bezier(0.83, 0, 0.17, 1) forwards;
+}
+
+.erupt-intro__door {
+  position: absolute;
+  top: 0;
+  width: calc(50% + 1px);
+  height: 100%;
+  background: var(--accent);
+  will-change: transform;
+}
+
+.erupt-intro__door--l {
+  left: 0;
+  animation: intro-door-l 0.75s cubic-bezier(0.7, 0, 0.3, 1) both;
+}
+
+.erupt-intro__door--r {
+  right: 0;
+  animation: intro-door-r 0.75s cubic-bezier(0.7, 0, 0.3, 1) both;
+}
+
+@keyframes intro-dots {
+  from {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes intro-twinkle {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes intro-letter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Drop → squash → widen into a line → hold for the warp + logo.
+   Per-keyframe timing functions drive each phase; the line stays a line at
+   100% (fill-mode both) until .erupt-intro--fill runs intro-fill. */
+@keyframes intro-erupt {
+  0% {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    transform: translate(-50%, -50%) translateY(-70vh) scale(1, 1);
+    animation-timing-function: cubic-bezier(0.5, 0, 0.9, 0.4);
+  }
+  24% {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    transform: translate(-50%, -50%) translateY(0) scale(1, 1);
+    animation-timing-function: cubic-bezier(0.3, 0, 0.6, 1);
+  }
+  30% {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    transform: translate(-50%, -50%) translateY(0) scale(1.5, 0.55);
+    animation-timing-function: cubic-bezier(0.34, 1.4, 0.64, 1);
+  }
+  37% {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    transform: translate(-50%, -50%) translateY(0) scale(1, 1);
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  66% {
+    width: 100%;
+    height: 6px;
+    border-radius: 999px;
+    transform: translate(-50%, -50%) translateY(0) scale(1, 1);
+    animation-timing-function: linear;
+  }
+  100% {
+    width: 100%;
+    height: 6px;
+    border-radius: 999px;
+    transform: translate(-50%, -50%) translateY(0) scale(1, 1);
+  }
+}
+
+@keyframes intro-fill {
+  from {
+    width: 100%;
+    height: 6px;
+    border-radius: 999px;
+    transform: translate(-50%, -50%) translateY(0) scale(1, 1);
+  }
+  to {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    transform: translate(-50%, -50%) translateY(0) scale(1, 1);
+  }
+}
+
+@keyframes intro-door-l {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-101%);
+  }
+}
+
+@keyframes intro-door-r {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(101%);
+  }
+}
